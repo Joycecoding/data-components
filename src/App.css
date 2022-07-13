@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 7fr;
+}
+
+.input-status {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.input-gender {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.input-species {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.data-name {
+  font-size: 10px;
+  font-weight: bold;
+}
+ 
+ .data-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+}
+
+.side-bar {
+  position: fixed;
+  width: 200px;
+  height: 150px;
+   position: fixed;
+  background-color: rgb(157, 201, 236); 
+  height: 100%;
+  width: 25 0px;
+}
+
+.data-selects {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  height: 100%;
+  width: 150px;
+  font-size: 15px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  height: 50px;
+  width: 80%;
+  margin-left: 100px;
+}
+.form-inline {
+  padding-top: 50px;
+  display: flex;
+  height: 150px;
+  width: 100vw;
+  padding-left: 200px;
+  padding-bottom: 100px;
+}
+
+.btn-primary {
+  height: 50px;
+  width: 70px;
+}
+.pagination button {
+  position: relative;
+  left: 400px;
+  color: black;
+  float: left;
+  margin-left: 200px;
+  padding-left: 30px;
+  margin: 20px;
+  padding: 8px 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.data-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.data-components {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  left: 400px;
+  padding-right: 150px;
+  margin-left: 50px;
+  padding-left: 200px;
+}
+
+.data-component {
+  margin: 20px;
+  padding-top: 20px;
+}
+
+/* .date {
+  position: absolute;
+  bottom: 450px;
+} */
+
+form {
+  padding-right: 150px;
+  }
+
+  .data-image:hover {
+    transform: scale(1.08);
+  }
+
+
+
+
